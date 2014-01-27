@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9b388a42-4bb7-41dc-9290-b18daa67d24b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>true</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61274/UpdateDistributor.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UpdateDistributor.xsd" MetadataType="Schema" ID="c839ccbf-336e-48a3-8bee-5a9283ce39a8" SourceId="1" SourceUrl="http://localhost:61274/UpdateDistributor.svc?xsd=xsd1" />
+    <MetadataFile FileName="UpdateDistributor1.xsd" MetadataType="Schema" ID="6ed6ec69-ae04-4a56-b8ba-873b715d13f4" SourceId="1" SourceUrl="http://localhost:61274/UpdateDistributor.svc?xsd=xsd2" />
+    <MetadataFile FileName="UpdateDistributor2.xsd" MetadataType="Schema" ID="19c64ce1-829d-4b36-bc11-4d9f2a193241" SourceId="1" SourceUrl="http://localhost:61274/UpdateDistributor.svc?xsd=xsd3" />
+    <MetadataFile FileName="UpdateDistributor.wsdl" MetadataType="Wsdl" ID="8bb4ba0e-2052-417c-a6fa-c3c42aa4ce20" SourceId="1" SourceUrl="http://localhost:61274/UpdateDistributor.svc?wsdl" />
+    <MetadataFile FileName="UpdateDistributor.disco" MetadataType="Disco" ID="ade1bef7-f9fb-4b77-91a5-8e1b9709be3c" SourceId="1" SourceUrl="http://localhost:61274/UpdateDistributor.svc?disco" />
+    <MetadataFile FileName="UpdateDistributor3.xsd" MetadataType="Schema" ID="81fcfa73-31ca-44c7-802e-7ff44127ea89" SourceId="1" SourceUrl="http://localhost:61274/UpdateDistributor.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

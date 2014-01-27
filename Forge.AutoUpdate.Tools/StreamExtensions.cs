@@ -2,6 +2,7 @@
 
 namespace Forge.AutoUpdate.Tools
 {
+    //TODO add XML doc
     public static class StreamExtensions
     {
         public static void Rewind(this Stream stream)

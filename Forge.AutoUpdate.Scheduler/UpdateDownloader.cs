@@ -5,6 +5,9 @@ using Forge.AutoUpdate.Tools;
 
 namespace Forge.AutoUpdate.Scheduler
 {
+    //TODO provide progress information
+    //TODO add strategy: download of diff between current and latest version?
+    //TODO enable download of multiple products
     public sealed class UpdateDownloader
     {
         readonly UpdateDistributorClient client;

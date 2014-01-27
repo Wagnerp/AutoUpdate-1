@@ -4,6 +4,7 @@ using Forge.AutoUpdate.Scheduler.Properties;
 
 namespace Forge.AutoUpdate.Scheduler
 {
+    //TODO add update installation
     public class UpdateScheduler
     {
         Timer timer;

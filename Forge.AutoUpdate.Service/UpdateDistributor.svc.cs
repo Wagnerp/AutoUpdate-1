@@ -16,6 +16,7 @@ namespace Forge.AutoUpdate.Service
         Stream GetVersion(string productName, Version version);
     }
 
+    //TODO provide progress information
     public class UpdateDistributor : IUpdateDistributor
     {
         public Version[] GetAvailableVersions(string productName)

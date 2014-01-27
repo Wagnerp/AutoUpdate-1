@@ -4,7 +4,7 @@ namespace Forge.AutoUpdate.Tools
 {
     public static class StreamExtensions
     {
-        public static void Reset(this Stream stream)
+        public static void Rewind(this Stream stream)
         {
             if (stream.CanSeek)
             {

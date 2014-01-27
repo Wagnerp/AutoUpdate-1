@@ -27,7 +27,7 @@ namespace Forge.AutoUpdate.Scheduler
             }
 
             var productDownloadFolder = GetProductDownloadFolder();
-            var latestDownloadedVersion = VersionHelper
+            var latestDownloadedVersion = VersionDirectoryParser
                 .ParseVersionsFromSubDirectoryNamesOf(productDownloadFolder)
                 .GetLatest();
 

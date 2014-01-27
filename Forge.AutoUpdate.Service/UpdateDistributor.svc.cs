@@ -20,7 +20,7 @@ namespace Forge.AutoUpdate.Service
     {
         public Version[] GetAvailableVersions(string productName)
         {
-            return VersionHelper.ParseVersionsFromSubDirectoryNamesOf(GetProductPackageFolder(productName));
+            return VersionDirectoryParser.ParseVersionsFromSubDirectoryNamesOf(GetProductPackageFolder(productName));
         }
 
         public Stream GetVersion(string productName, Version version)
@@ -35,7 +35,7 @@ namespace Forge.AutoUpdate.Service
                 Stream.Null :
                 DirectoryZipper.CompressDirectory(versionDirectory);
 
-            output.Reset();
+            output.Rewind();
             return output;
         }
 

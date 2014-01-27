@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Forge.AutoUpdate.Tools
 {
-    public static class VersionHelper
+    public static class VersionDirectoryParser
     {
         public static Version[] ParseVersionsFromSubDirectoryNamesOf(string path)
         {
